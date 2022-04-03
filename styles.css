@@ -165,4 +165,17 @@
         transition: all 0.3s ease-in-out;
         background: #fff;
     }
+
+    .navbar__item
+    {
+        width: 100%;
+    }
+
+    .navbar__links
+    {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
 }
