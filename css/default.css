@@ -836,10 +836,10 @@
 
 /* Background Color */
 .theme-bg{
-	background: #f2dfc6;
+	background: #354552;
 }
 .primary-bg{
-	background: #f2dfc6;
+	background: #354552;
 }
 
 .white-bg {
@@ -856,7 +856,7 @@
 
 /* Color */
 .theme-color{
-	color: #1b4231;
+	color: #354552;
 }
 .dark-black-color{color: #000000;}
 .primary-color{
@@ -873,16 +873,16 @@
 }
 
 /* hover */
-.theme-hover:hover{color: #1b4231;}
+.theme-hover:hover{color: #354552;}
 
 
 
 /* border */
-.theme-border{border:1px solid #1b4231}
+.theme-border{border:1px solid #354552}
 .primary-border{border: 1px solid #d1dbe5 !important;}
 .white-border{border:1px solid #fff}
 .secondary-border01{border: 1px solid #d8d7e6;}
-.theme-border-bottom2{border-bottom:2px solid #1b4231}
+.theme-border-bottom2{border-bottom:2px solid #354552}
 .footer-border-bottom{border-bottom: 1px solid #dcdce1;}
 
 /* social-link-color */
