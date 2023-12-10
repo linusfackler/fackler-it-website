@@ -48,7 +48,8 @@ body {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 }
-h1,h2,h3,h4,h5,h6 {color: #222222;font-weight: 700;}
+h1,h2,h3,h4,h5 {color: #222222;font-weight: 700;}
+h6 {color: #c4c4c4;font-weight: 700;}
 h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {color: inherit;}
 h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover {color: #354552}
 h3 {font-size: 48px;}
@@ -1791,7 +1792,7 @@ input:checked + .slider::before{ transform: translateX(26px);}
 /* 26. footer area
 -------------------------------------------------------------- */
 .footer-area li,.footer-area span,.footer-top a{
-	color: #666666;
+	color: #f6f6f6;
 	font-size: 18px;
 	line-height: 1.556;
 	transition: .3s;
@@ -1803,7 +1804,7 @@ input:checked + .slider::before{ transform: translateX(26px);}
 }
 .footer-top a:hover,.footer-bottom a:hover,.footer-bottom a.c-theme:hover{color: #354552;}
 .footer-area span.f-icon {
-	width: 18px; 
+	width: 18px;
 }
 .sub-name,.home4 .copyright-area h3 {font-size: 18px;}
 .sub-name.form-control::placeholder {color: #666666;font-size: 18px;}
