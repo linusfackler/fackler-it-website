@@ -561,6 +561,10 @@ a:focus,a:hover,.portfolio-cat a:hover,.footer-menu li a:hover {
 /* 6. service area
 ------------------------------------------------------------- */
 .ser-icon {width: 60px;}
+.mobile-dev-icon {
+	width: 30px;
+	margin-right: 10px;
+}
 .single-service-content:hover {
 	transform: translateY(-10px);
 	box-shadow: 0 .2rem 2.5rem rgba(0, 0, 0, .08);
