@@ -1,4 +1,5 @@
 import React from 'react'
+import IMG from '../../assets/services/cloud.png'
 
 export const Cloud = () => {
   return (
@@ -19,7 +20,7 @@ export const Cloud = () => {
                                     <div className="card border-0">
                                         <div className="card-header card-header-top rounded-0 bg-transparent p-0" id="headingOne">
                                             <h6 className="mb-0">
-                                                <a href="#" className="btn btn-link black-color f-700 border-0 d-block text-left rounded-0 position-relative" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                <a className="btn btn-link black-color f-700 border-0 d-block text-left rounded-0 position-relative" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                     Warum ist Cloud Computing oft kostengünstiger als herkömmliche Vor-Ort-Lösungen?"
                                                 </a>
                                             </h6>
@@ -34,7 +35,7 @@ export const Cloud = () => {
                                     <div className="card border-0">
                                         <div className="card-header bg-transparent p-0" id="headingTwo">
                                             <h6 className="mb-0">
-                                                <a href="#" className="btn btn-link black-color f-700 border-0 d-block text-left rounded-0 position-relative collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <a className="btn btn-link black-color f-700 border-0 d-block text-left rounded-0 position-relative collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                     Warum ist Cloud Computing skalierbarer?
                                                 </a>
                                             </h6>
@@ -50,7 +51,7 @@ export const Cloud = () => {
                                     <div className="card card-header-end border-0">
                                         <div className="card-header bg-transparent p-0" id="headingThree">
                                             <h6 className="mb-0">
-                                                <a href="#" className="btn btn-link black-color f-700 border-0 d-block text-left rounded-0 position-relative collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <a className="btn btn-link black-color f-700 border-0 d-block text-left rounded-0 position-relative collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                                     Wie verbessert Cloud Computing die Datensicherheit?
                                                 </a>
                                             </h6>
@@ -68,7 +69,7 @@ export const Cloud = () => {
                     </div>
                     <div className="col-xl-6 col-lg-6 offset-lg-0 col-md-10 offset-md-1 col-sm-12 col-12 pr-10">
                         <div className="faq-img img-right-margin text-center"  data-aos="fade-left" data-aos-duration="2000">
-                            <img className="d-block bounce-animate2" src="images/feature/cloud.png" alt=""/>
+                            <img className="d-block bounce-animate2" src={IMG} alt=""/>
                         </div>
                     </div>
                 </div>

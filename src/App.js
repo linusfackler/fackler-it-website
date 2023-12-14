@@ -25,8 +25,8 @@ function App() {
     useEffect(() => {
         // AOS initialization
         if (window.AOS) {
-        window.AOS.init({});
-        console.log('AOS Initialized');
+            window.AOS.init({});
+            console.log('AOS Initialized');
         }
         return () => {
         if (window.AOS) {

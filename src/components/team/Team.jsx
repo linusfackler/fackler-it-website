@@ -1,4 +1,7 @@
 import React from 'react'
+import RMD from '../../assets/team/raimund.jpeg'
+import LKS from '../../assets/team/lukas.jpg'
+import LNS from '../../assets/team/linus.jpeg'
 
 export const Team = () => {
   return (
@@ -17,10 +20,10 @@ export const Team = () => {
                             </div>
                         </div>
                         <div className="row our-team-wrapper-margin pt-55">
-                            <a href="https://www.linkedin.com/in/raimundfackler/" target="_blank" className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                            <a href="https://www.linkedin.com/in/raimundfackler/" target="_blank" rel="noreferrer" className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
                                 <div className="our-team-wrapper position-relative mb-40">
                                     <div className="single-team-img position-relative z-index1">
-                                        <img className="w-100" src="images/team/raimund.jpeg" alt=""/>
+                                        <img className="w-100" src={RMD} alt=""/>
                                     </div>
                                     <div className="our-team-info transition5 position-absolute left-0 right-0 white-bg pl-25 pt-90 pb-15 pr-25">
                                         <span className="secondary-color">Geschäftsführer</span>
@@ -28,10 +31,10 @@ export const Team = () => {
                                     </div>
                                 </div>
                             </a>
-                            <a href="https://www.linkedin.com/in/lukasfackler/" target="_blank" className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                            <a href="https://www.linkedin.com/in/lukasfackler/" target="_blank" rel="noreferrer" className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
                                 <div className="our-team-wrapper position-relative mb-40">
                                     <div className="single-team-img position-relative z-index1">
-                                        <img className="w-100" src="images/team/lukas.jpg" alt=""/>
+                                        <img className="w-100" src={LKS} alt=""/>
                                     </div>
                                     <div className="our-team-info transition5 position-absolute left-0 right-0 white-bg pl-25 pt-90 pb-15 pr-25">
                                         <span className="secondary-color">Finanzvorstand</span>
@@ -39,10 +42,10 @@ export const Team = () => {
                                     </div>
                                 </div>
                             </a>
-                            <a href="https://www.linkedin.com/in/linusfackler/" target="_blank" className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                            <a href="https://www.linkedin.com/in/linusfackler/" target="_blank" rel="noreferrer" className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
                                 <div className="our-team-wrapper position-relative mb-40">
                                     <div className="single-team-img position-relative z-index1">
-                                        <img className="w-100" src="images/team/linus.jpeg" alt=""/>
+                                        <img className="w-100" src={LNS} alt=""/>
                                     </div>
                                     <div className="our-team-info transition5 position-absolute left-0 right-0 white-bg pl-25 pt-90 pb-15 pr-25">
                                         <span className="secondary-color">Projektleiter</span>

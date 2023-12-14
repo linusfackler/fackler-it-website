@@ -89,17 +89,11 @@
 		$(".body-overlay").removeClass("opened");
 	});
 
-
-
     // 5. background image
     //---------------------------------------------------------------------------
     $("[data-background]").each(function (){
         $(this).css("background-image","url(" + $(this).attr("data-background") + ")");
     });
-
-
-
-
 
     // 6. testimonial active (home1)
     //---------------------------------------------------------------------------

@@ -1,4 +1,9 @@
 import React from 'react'
+import IMG from '../../assets/services/app-dev.png'
+import ICON1 from '../../assets/icon/apple.png'
+import ICON2 from '../../assets/icon/android.png'
+import ICON3 from '../../assets/icon/cross-platform.png'
+import ICON4 from '../../assets/icon/react.png'
 
 export const Appdev = () => {
   return (
@@ -9,7 +14,7 @@ export const Appdev = () => {
                 <div className="row align-items-center  flex-column-reverse flex-lg-row">
                     <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                         <div className="about-img img-left-margin text-center" data-aos="fade-right" data-aos-duration="2000">
-                            <img className="d-block bounce-animate2 img-style" src="images/feature/app-dev.png" alt=""/>
+                            <img className="d-block bounce-animate2 img-style" src={IMG} alt=""/>
                         </div>
                     </div>
                     <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
@@ -26,7 +31,7 @@ export const Appdev = () => {
                                             <div className="single-feature-service mb-22">
                                                 <div className="feature-ser-heading d-flex align-items-center mb-1">
                                                     <div className="mobile-dev-icon d-inline-block text-center mb-10 transition5">
-                                                        <img src="images/icon/apple.png" alt=""/>
+                                                        <img src={ICON1} alt=""/>
                                                     </div>
                                                     <h6 className="f-700 mb-0">iOS App Entwicklung</h6>
                                                 </div>
@@ -37,7 +42,7 @@ export const Appdev = () => {
                                             <div className="single-feature-service mb-22">
                                                 <div className="feature-ser-heading d-flex align-items-center mb-1">
                                                     <div className="mobile-dev-icon d-inline-block text-center mb-10 transition5">
-                                                        <img src="images/icon/android2.png" alt=""/>
+                                                        <img src={ICON2} alt=""/>
                                                     </div>
                                                     <h6 className="f-700 mb-0">Android Entwicklung</h6>
                                                 </div>
@@ -48,7 +53,7 @@ export const Appdev = () => {
                                             <div className="single-feature-service mb-22">
                                                 <div className="feature-ser-heading d-flex align-items-center mb-1">
                                                     <div className="mobile-dev-icon d-inline-block text-center mb-10 transition5">
-                                                        <img src="images/icon/cross-platform.png" alt=""/>
+                                                        <img src={ICON3} alt=""/>
                                                     </div>
                                                     <h6 className="f-700 mb-0">Cross-Platform Apps</h6>
                                                 </div>
@@ -59,7 +64,7 @@ export const Appdev = () => {
                                             <div className="single-feature-service mb-22">
                                                 <div className="feature-ser-heading d-flex align-items-center mb-1">
                                                     <div className="mobile-dev-icon d-inline-block text-center mb-6 transition5">
-                                                        <img src="images/icon/react.png" alt=""/>
+                                                        <img src={ICON4} alt=""/>
                                                     </div>
                                                     <h6 className="f-700 mb-0">Webentwicklung</h6>
                                                 </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import IMG from '../../assets/contact/kontakt.png'
 
 export const Contact = () => {
   return (
@@ -43,7 +44,7 @@ export const Contact = () => {
                     </div>
                     <div className="col-xl-6 col-lg-6 offset-lg-0 col-md-10 offset-md-1 col-sm-12 col-12 pr-10">
                         <div className="faq-img img-right-margin text-center"  data-aos="fade-left" data-aos-duration="2000">
-                            <img className="d-block bounce-animate2" src="images/feature/kontakt.png" alt=""/>
+                            <img className="d-block bounce-animate2" src={IMG} alt=""/>
                         </div>
                     </div>
                 </div>

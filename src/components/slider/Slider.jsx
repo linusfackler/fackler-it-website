@@ -1,11 +1,13 @@
 import React from 'react'
+import IMG from '../../assets/slider/home.png'
+import BG from '../../assets/slider/bg.png'
 
 export const Slider = () => {
   return (
     <div>
-        <div id="hallo"></div>
+        <div id="home"></div>
           <div className="slider-area position-relative">
-              <div className="single-slider slider-height1 container-wrapper d-flex align-items-center z-index1" data-background="../public/images/slider/home1-slider-bg.png">
+              <div className="single-slider slider-height1 container-wrapper d-flex align-items-center z-index1" style={{ backgroundImage: `url(${BG})` }}>
                   <div className="container">
                       <div className="row align-items-center">
                           <div className="col-xl-6  col-lg-6  col-md-6  col-sm-12 col-12  d-flex align-items-center">
@@ -19,7 +21,7 @@ export const Slider = () => {
                           </div>
                           <div className="col-xl-6 col-lg-6  col-md-6  col-sm-12 col-12  d-flex align-items-center ">
                               <div className="slider-img1 mt-25 pl-65 z-index1 position-relative">
-                                  <img className="bounce-animate img-style" src="images/slider/home.png" alt=""/>
+                                  <img className="bounce-animate img-style" src={IMG} alt=""/>
                               </div>
                           </div>
                       </div>

@@ -948,3 +948,8 @@
 .footer-address {
 	color: white
 }
+
+.link:hover {
+	cursor: pointer; 
+	text-decoration: underline;
+}

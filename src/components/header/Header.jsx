@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll';
 
 export const Header = () => {
     
@@ -15,17 +16,17 @@ export const Header = () => {
                         <div className="row align-items-center justify-content-between position-relative">
                             <div className="col-xl-2 col-lg-2 col-md-3 col-sm-5 col-6">
                                 <div className="logo">
-                                    <a href="index.html" className="d-block"><img src="images/logo/logo.svg"/></a>
+                                    <Link to="home" smooth={true} duration={800} className="link d-block"><img src="images/logo/logo.svg"/></Link>
                                 </div>
                             </div>
                             <div className="col-xl-7 col-lg-7 col-md-1 col-sm-1 col-1 d-none d-lg-flex justify-content-end position-static">
                                 <div className="main-menu">
                                     <nav id="mobile-menu">
                                         <ul className="d-block">
-                                            <li className="full-mega-menu-position"><a className="active" href="#hallo">Home</a></li>
-                                            <li><a href="#service">Service</a></li>
-                                            <li><a href="#unser-team">Über Uns</a></li>
-                                            <li><a href="#kontakt">Kontakt</a>
+                                            <li className="full-mega-menu-position"><Link to="home" smooth={true} duration={800} className="link active">Home</Link></li>
+                                            <li><Link to="service" smooth={true} duration={800} className='link'>Service</Link></li>
+                                            <li><Link to="unser-team" smooth={true} duration={800} className='link'>Über Uns</Link></li>
+                                            <li><Link to="kontakt" smooth={true} duration={800} className='link'>Kontakt</Link>
                                             </li>
                                         </ul>
                                     </nav>

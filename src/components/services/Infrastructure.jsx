@@ -1,16 +1,18 @@
 import React from 'react'
+import IMG from '../../assets/services/infrastructure.png'
+import SHAPE from '../../assets/services/shape2.png'
 
 export const Infrastructure = () => {
   return (
     <div>
         <div id="it-infrastruktur"></div>
         <div className="feature-area">
-            <div className="feature-bg bg-no-repeat" data-aos="fade-up" data-aos-duration="1800" data-background="images/feature/home1-feature-bg.png">
+            <div className="feature-bg bg-no-repeat" data-aos="fade-up" data-aos-duration="1800" style={{ backgroundImage: `url(${SHAPE})` }}>
                 <div className="container">
                     <div className="row align-items-center flex-column-reverse flex-lg-row">
                         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 pr-10">
                             <div className="feature-img img-left-margin text-center" data-aos="fade-right" data-aos-duration="2000">
-                                <img className="d-block bounce-animate2 img-style" src="images/feature/infrastructure.png" alt=""/>
+                                <img className="d-block bounce-animate2 img-style" src={IMG} alt=""/>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 pl-lg-0 pl-xl-3 mt-10">
