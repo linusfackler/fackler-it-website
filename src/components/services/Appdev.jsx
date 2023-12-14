@@ -23,7 +23,7 @@ export const Appdev = () => {
                                 <span className="theme-color f-700">Mobile/Web Development</span>
                                 <h3 className="f-700">Ihre digitale Präsenz, neu definiert</h3>
                             </div>
-                            <div className="about-text mt-55 ">
+                            <div className="about-text mt-45 ">
                                 <h6 className="f-400 mb-30">Wir entwickeln benutzerfreundliche und innovative mobile und Web-Anwendungen, die nicht nur ansprechend aussehen, sondern auch nahtlos funktionieren – für ein optimales Nutzererlebnis auf jedem Gerät.</h6>
                                 <div className="feature-text mt-30">
                                     <div className="row">

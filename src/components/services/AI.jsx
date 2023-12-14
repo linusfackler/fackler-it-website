@@ -1,6 +1,10 @@
 import React from 'react'
 import IMG from '../../assets/services/ki.png'
 import SHAPE from '../../assets/services/shape1.png'
+import { FaFeatherAlt } from "react-icons/fa";
+import { FaGears } from "react-icons/fa6";
+import { FaEye } from "react-icons/fa";
+import { MdOutlineAnalytics } from "react-icons/md";
 
 export const AI = () => {
   return (
@@ -18,16 +22,20 @@ export const AI = () => {
                                     <p>Tauchen Sie ein in die Welt der Künstlichen Intelligenz mit unseren maßgeschneiderten Lösungen, die Ihre Daten in wertvolle Einblicke und automatisierte Prozesse verwandeln.</p>
                                     <ul className="sp-feature-text mt-30">
                                     <li className="d-flex">
-                                        <span className="sp-feature-icon theme-color d-inline-block mr-20"><i className="fal fa-check"></i></span>
-                                        <p>Zuverlässigkeit: Sichere und beständige Systeme</p>
+                                        <FaFeatherAlt className='ai-icon'/>
+                                        <p><strong>Large Language Models:</strong> Integration von fortschrittlichen Sprachmodellen für Textverarbeitung und Kommunikation.</p>
                                     </li>
                                     <li className="d-flex">
-                                        <span className="sp-feature-icon theme-color d-inline-block mr-20"><i className="fal fa-check"></i></span>
-                                        <p>Skalierbarkeit: Wachstum ohne Grenzen</p>
+                                        <FaGears className='ai-icon'/>
+                                        <p><strong>Automatisierung von Geschäftsprozessen:</strong> Einsatz von KI zur Optimierung und Automatisierung routinemäßiger Aufgaben.</p>
                                     </li>
                                     <li className="d-flex">
-                                        <span className="sp-feature-icon theme-color d-inline-block mr-20"><i className="fal fa-check"></i></span>
-                                        <p>Sicherheit: Fortschrittlicher Schutz für Ihre Daten</p>
+                                        <FaEye className='ai-icon'/>
+                                        <p><strong>Bild- und Spracherkennung:</strong> Fortschrittliche Algorithmen zur Erkennung und Verarbeitung von Bildern und Sprache.</p>
+                                    </li>
+                                    <li className="d-flex">
+                                        <MdOutlineAnalytics className='ai-icon'/>
+                                        <p><strong>Datenanalyse und Insights:</strong> Tiefgehende Datenanalysen, um Erkenntnisse zu gewinnen und Entscheidungsfindung zu unterstützen.</p>
                                     </li>
                                 </ul>
                                 </div>
