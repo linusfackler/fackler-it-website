@@ -10,7 +10,7 @@ export const Footer = () => {
                         <div className="row">
                             <div className="col-xl-3  col-lg-4  col-md-6  col-sm-12 col-12 pr-xl-0">
                                 <div className="footer-widget f-adress pb-40 mt-25">
-                                    <h6 className="text-capitalize f-700 mb-22">Kontakt</h6>
+                                    <h6 className="text-capitalize f-700 mb-22 white-color">Kontakt</h6>
                                     <ul className="footer-address">
                                         <li className="d-flex align-items-start">
                                             <span className="f-icon mr-20 mt-1"><i className="fas fa-map-marker-alt"></i></span> 
@@ -27,13 +27,13 @@ export const Footer = () => {
                             </div>
                             <div className="col-xl-2 offset-xl-1  col-lg-2  col-md-3  col-sm-6 col-12">
                                 <div className="footer-widget f-info pb-30 ml-40 pr-20 mt-25">
-                                    <h6 className="text-capitalize f-700 mb-22">Links</h6>
+                                    <h6 className="text-capitalize f-700 mb-22 white-color">Links</h6>
                                     <ul className="footer-info">
                                         <li>
-                                            <a href="index.html" className="position-relative d-inline-block mb-2">Home</a>
+                                            <a href="/" className="position-relative d-inline-block mb-2">Home</a>
                                         </li>
                                         <li>
-                                            <a href="#impressum" className="position-relative d-inline-block mb-2">Impressum</a>
+                                            <a href="impressum" className="position-relative d-inline-block mb-2">Impressum</a>
                                         </li>
                                         <li>
                                             <a href="datenschutz" className="position-relative d-inline-block mb-2">Datenschutz</a>

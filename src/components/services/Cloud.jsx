@@ -21,7 +21,7 @@ export const Cloud = () => {
                                         <div className="card-header card-header-top rounded-0 bg-transparent p-0" id="headingOne">
                                             <h6 className="mb-0">
                                                 <a className="btn btn-link black-color f-700 border-0 d-block text-left rounded-0 position-relative" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                    Warum ist Cloud Computing oft kostengünstiger als herkömmliche Vor-Ort-Lösungen?"
+                                                    Warum ist Cloud Computing oft kostengünstiger als herkömmliche Vor-Ort-Lösungen?
                                                 </a>
                                             </h6>
                                         </div>
