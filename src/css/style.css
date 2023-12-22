@@ -1611,18 +1611,6 @@ input:checked + .slider::before{ transform: translateX(26px);}
 	font-size: 22px;
 	color: #354552;
 }
-/* home2 */
-.f-count span {font-size: 48px;color:#354552;}
-.single-f-counter p {max-width: 90px;line-height: 1.43;}
-/* home3 */
-.home3-f-about-info li {
-	width: 50%;
-	float: left;
-}
-/* home5 */
-.footer-blog span{font-size: 16px;}
-.footer-blog h6{font-size: 18px;}
-
 /* extra css  */
 /* header-search-details */
 .header-search-details {

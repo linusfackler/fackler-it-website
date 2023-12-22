@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useEffect } from 'react';
+import { Helmet } from "react-helmet"
 import { Header } from './components/header/Header';
 import { Slider } from './components/slider/Slider';
 import { Clients } from './components/clients/Clients';
@@ -21,7 +22,6 @@ import '../src/css/all-animations.css'
 import '../src/css/animate.css'
 import '../src/css/aos.css'
 import '../src/css/bootstrap.min.css'
-import '../src/css/carousel.css'
 import '../src/css/default.css'
 // import '../src/css/flaticon.css'
 // import '../src/css/fontawesome-all.min.css'
@@ -37,21 +37,24 @@ function App() {
         event.preventDefault();
       }
 
-    useEffect(() => {
-        // AOS initialization
-        if (window.AOS) {
-            window.AOS.init({});
-            console.log('AOS Initialized');
-        }
-        return () => {
-        if (window.AOS) {
-            window.AOS.refresh();
-        }
-        };
-    }, []);
+    // useEffect(() => {
+    //     // AOS initialization
+    //     if (window.AOS) {
+    //         window.AOS.init({});
+    //         console.log('AOS Initialized');
+    //     }
+    //     return () => {
+    //     if (window.AOS) {
+    //         window.AOS.refresh();
+    //     }
+    //     };
+    // }, []);
   
     return (
-        <div>
+        <>
+            <Helmet>
+                <script src="js/main.js"></script>
+            </Helmet>
             <Preloader />
         
             <Header />
@@ -73,7 +76,7 @@ function App() {
             <Footer />
 
             <Scrolltop />
-        </div>
+        </>
     );
 }
 

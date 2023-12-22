@@ -14,9 +14,7 @@ export const Impressum = () => {
         Registergericht: Amtsgericht Stuttgart</p>
 
         <p><strong>Vertreten durch:</strong><br />
-        Raimund Fackler<br />
-        Lukas Fackler<br />
-        Linus Fackler</p>
+        Raimund Fackler</p>
 
         <h2>Kontakt</h2>
         <p>Telefon: +49 (0) 151 51790727<br />
