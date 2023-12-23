@@ -6,7 +6,7 @@ export const Infrastructure = () => {
   return (
     <div>
         <div id="it-infrastruktur"></div>
-        <div className="feature-area">
+        <div className="feature-area pt-20">
             <div className="feature-bg bg-no-repeat" data-aos="fade-up" data-aos-duration="1800" style={{ backgroundImage: `url(${SHAPE})` }}>
                 <div className="container">
                     <div className="row align-items-center flex-column-reverse flex-lg-row">

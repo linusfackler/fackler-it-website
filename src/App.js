@@ -22,7 +22,7 @@ function App() {
     function handleClick(event) {
         event.preventDefault();
       }
-  
+
     return (
         <>
             <Helmet>

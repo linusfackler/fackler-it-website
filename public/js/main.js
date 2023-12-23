@@ -88,6 +88,15 @@
 		$(".body-overlay").removeClass("opened");
 	});
 
+    $(".link").on("click", function () {
+        $(".side-mobile-menu").removeClass('open-menubar');
+        $(".body-overlay").removeClass("opened");
+    });
+
+    $(".link-service").on("click", function () {
+        document.getElementById("service");
+    });
+
     // 5. background image
     //---------------------------------------------------------------------------
     $("[data-background]").each(function (){

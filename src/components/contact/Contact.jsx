@@ -5,7 +5,7 @@ export const Contact = () => {
   return (
     <div>
         <div id="kontakt"></div>
-        <div className="faq-area pt-30 mb-70"  data-aos="fade-right" data-aos-duration="2000">
+        <div className="faq-area pt-70 mb-70"  data-aos="fade-right" data-aos-duration="2000">
             <div className="container">
                 <div className="row mt-10">
                     <div className="col-xl-6 col-lg-7 col-md-12  col-sm-12 col-12">
@@ -44,7 +44,7 @@ export const Contact = () => {
                     </div>
                     <div className="col-xl-6 col-lg-6 offset-lg-0 col-md-10 offset-md-1 col-sm-12 col-12 pr-10">
                         <div className="faq-img img-right-margin text-center"  data-aos="fade-left" data-aos-duration="2000">
-                            <img className="d-block bounce-animate2" src={IMG} alt=""/>
+                            <img className="d-block bounce-animate2 img-style" src={IMG} alt=""/>
                         </div>
                     </div>
                 </div>

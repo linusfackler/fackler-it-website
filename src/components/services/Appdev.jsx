@@ -9,7 +9,7 @@ export const Appdev = () => {
   return (
     <div>
         <div id="app-dev"></div>
-        <div className="about-area mt-75 mb-80">
+        <div className="about-area pt-75 mb-80">
             <div className="container">
                 <div className="row align-items-center  flex-column-reverse flex-lg-row">
                     <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">

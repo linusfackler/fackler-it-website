@@ -1,8 +1,13 @@
 import React from 'react'
 import { Link } from 'react-scroll';
+import { useLocation } from 'react-router-dom'
+import { Helmet } from "react-helmet"
 
 export const Header = () => {
-    
+    const location = useLocation();
+    const isHomePage = location.pathname === '/';
+    console.log(location.pathname)
+
     function handleClick(event) {
         event.preventDefault();
     }
@@ -22,13 +27,21 @@ export const Header = () => {
                             <div className="col-xl-7 col-lg-7 col-md-1 col-sm-1 col-1 d-none d-lg-flex justify-content-end position-static">
                                 <div className="main-menu">
                                     <nav id="mobile-menu">
+                                        {isHomePage ? (
                                         <ul className="d-block">
                                             <li className="full-mega-menu-position"><Link to="home" smooth={true} duration={800} className="link active">Home</Link></li>
                                             <li><Link to="service" smooth={true} duration={800} className='link'>Service</Link></li>
                                             <li><Link to="unser-team" smooth={true} duration={800} className='link'>Über Uns</Link></li>
-                                            <li><Link to="kontakt" smooth={true} duration={800} className='link'>Kontakt</Link>
-                                            </li>
+                                            <li><Link to="kontakt" smooth={true} duration={800} className='link'>Kontakt</Link></li>
                                         </ul>
+                                        ) : (
+                                        <ul className="d-block">
+                                            <li className="full-mega-menu-position"><a href="/" className="link">Home</a></li>
+                                            {/* <li><a href="/" className='link link-service'>Service</a></li>
+                                            <li><a href="/" className='link link-team'>Über Uns</a></li>
+                                            <li><a href="/" className='link link-kontakt'>Kontakt</a></li> */}
+                                        </ul>
+                                        )}
                                     </nav>
                                 </div>
                             </div>
@@ -54,7 +67,7 @@ export const Header = () => {
             <div className="mobile-menu mt-10 w-100"></div>
             <ul className="social-link pt-50 clear-both">
                 <li className="d-inline-block">
-                    <a className="linked-in-color text-center d-inline-block transition-3" href="https://www.linkedin.com/company/fackler-it/"><i className="fab fa-linkedin-in"></i></a>
+                    <a className="linked-in-color text-center d-inline-block transition-3" href="https://www.linkedin.com/company/fackler-it/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin-in"></i></a>
                 </li>
             </ul>
         </div>
