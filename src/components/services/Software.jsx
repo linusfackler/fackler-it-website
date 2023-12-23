@@ -6,7 +6,7 @@ export const Software = () => {
   return (
     <div>
         <div id="software"></div>
-        <div className="feature-area pt-20">
+        <div className="feature-area">
             <div className="feature-bg bg-no-repeat" data-aos="fade-up" data-aos-duration="1800" data-background={SHAPE}>
                 <div className="container">
                     <div className="row align-items-center flex-column-reverse flex-lg-row">

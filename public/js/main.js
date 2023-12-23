@@ -408,6 +408,7 @@
     $('.tilt').tilt({
         maxTilt:        15,
         perspective:    1500,
+        // disableAxis:    'X',
     });
 
     // 21. aos js

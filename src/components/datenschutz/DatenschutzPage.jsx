@@ -8,8 +8,6 @@ export const DatenschutzPage = () => {
   return (
     <div>
         <Helmet>
-          <script src="js/jquery.meanmenu.min.js"></script>
-          <script src="js/tilt.jquery.min.js"></script>
           <script src="js/main.js"></script>
         </Helmet>
         <Header/>

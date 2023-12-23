@@ -5,7 +5,7 @@ export const Contact = () => {
   return (
     <div>
         <div id="kontakt"></div>
-        <div className="faq-area pt-70 mb-70"  data-aos="fade-right" data-aos-duration="2000">
+        <div className="faq-area pt-30 mb-70"  data-aos="fade-right" data-aos-duration="2000">
             <div className="container">
                 <div className="row mt-10">
                     <div className="col-xl-6 col-lg-7 col-md-12  col-sm-12 col-12">

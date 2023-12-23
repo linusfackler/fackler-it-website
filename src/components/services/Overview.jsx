@@ -13,7 +13,7 @@ export const Overview = () => {
         <div className="service-area over-hidden">
             <div className="container">
                 <div className="row test1">
-                    <Link to="solution" smooth={true} duration={800} className="link col-xl-4  col-lg-4  col-md-4  col-sm-12 col-12">
+                    <Link to="solution" smooth={true} duration={800} offset={-100} className="link col-xl-4  col-lg-4  col-md-4  col-sm-12 col-12">
                         <div className="single-service-content transition5 mt-10 secondary-border01 pl-50 pt-55 pb-35 pr-50 mb-35 mt-30 tilt" data-aos="fade-up">
                             <div className="ser-icon d-inline-block text-center mb-20 transition5">
                                 <img src={ICON1} alt=""/>
@@ -24,7 +24,7 @@ export const Overview = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link to="software" smooth={true} duration={800} className="link col-xl-4  col-lg-4  col-md-4  col-sm-12 col-12">
+                    <Link to="software" smooth={true} duration={800} offset={-50} className="link col-xl-4  col-lg-4  col-md-4  col-sm-12 col-12">
                         <div className="single-service-content transition5 mt-10 secondary-border01 pl-50 pt-55 pb-35 pr-50 mb-35 mt-30 tilt" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
                             <div className="ser-icon d-inline-block text-center mb-20  transition5">
                                 <img src={ICON2} alt=""/>
@@ -35,7 +35,7 @@ export const Overview = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link to="cloud" smooth={true} duration={800} className="link col-xl-4  col-lg-4  col-md-4  col-sm-12 col-12">
+                    <Link to="cloud" smooth={true} duration={800} offset={20} className="link col-xl-4  col-lg-4  col-md-4  col-sm-12 col-12">
                         <div className="single-service-content transition5 mt-10 secondary-border01 pl-50 pt-55 pb-35 pr-50 mb-35 mt-30 tilt" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">
                             <div className="ser-icon d-inline-block text-center mb-20  transition5">
                                 <img src={ICON3} alt=""/>
@@ -46,7 +46,7 @@ export const Overview = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link to="it-infrastruktur" smooth={true} duration={800} className="link col-xl-4  col-lg-4  col-md-4  col-sm-12 col-12">
+                    <Link to="it-infrastruktur" smooth={true} duration={800} offset={-50} className="link col-xl-4  col-lg-4  col-md-4  col-sm-12 col-12">
                         <div className="single-service-content transition5 mt-10 secondary-border01 pl-50 pt-55 pb-35 pr-50 mb-35 mt-30 tilt" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">
                             <div className="ser-icon d-inline-block text-center mb-20  transition5">
                                 <img src={ICON4} alt=""/>
@@ -68,7 +68,7 @@ export const Overview = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link to="app-dev" smooth={true} duration={800} className="link col-xl-4  col-lg-4  col-md-4  col-sm-12 col-12">
+                    <Link to="app-dev" smooth={true} duration={800} offset={-90} className="link col-xl-4  col-lg-4  col-md-4  col-sm-12 col-12">
                         <div className="single-service-content transition5 mt-10 secondary-border01 pl-50 pt-55 pb-35 pr-50 mb-35 mt-30 tilt" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
                             <div className="ser-icon d-inline-block text-center mb-20  transition5">
                                 <img src={ICON6} alt=""/>

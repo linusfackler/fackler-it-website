@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Helmet } from "react-helmet"
 import { Header } from './components/header/Header';
 import { Slider } from './components/slider/Slider';
@@ -19,10 +18,6 @@ import { Preloader } from './components/other/Preloader';
 import { Scrolltop } from './components/other/Scrolltop'
 
 function App() {
-    function handleClick(event) {
-        event.preventDefault();
-      }
-
     return (
         <>
             <Helmet>
