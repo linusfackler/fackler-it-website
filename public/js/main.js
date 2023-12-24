@@ -93,9 +93,9 @@
         $(".body-overlay").removeClass("opened");
     });
 
-    $(".link-service").on("click", function () {
-        document.getElementById("service");
-    });
+    // $(".link-service").on("click", function () {
+    //     document.getElementById("service");
+    // });
 
     // 5. background image
     //---------------------------------------------------------------------------

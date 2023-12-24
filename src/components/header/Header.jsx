@@ -21,7 +21,11 @@ export const Header = () => {
                         <div className="row align-items-center justify-content-between position-relative">
                             <div className="col-xl-2 col-lg-2 col-md-3 col-sm-5 col-6">
                                 <div className="logo">
-                                    <Link to="home" smooth={true} duration={800} className="link d-block"><img src={LOGO} alt=""/></Link>
+                                    {isHomePage ? (
+                                        <Link to="home" smooth={true} duration={800} className="link d-block"><img src={LOGO} alt=""/></Link>
+                                        ) : (
+                                        <a href="/" className="link d-block"><img src={LOGO} alt=""/></a>
+                                    )}
                                 </div>
                             </div>
                             <div className="col-xl-7 col-lg-7 col-md-1 col-sm-1 col-1 d-none d-lg-flex justify-content-end position-static">
@@ -32,7 +36,7 @@ export const Header = () => {
                                             <li className="full-mega-menu-position"><Link to="home" smooth={true} duration={800} className="link active">Home</Link></li>
                                             <li><Link to="service" smooth={true} duration={800} offset={60} className='link'>Service</Link></li>
                                             <li><Link to="unser-team" smooth={true} duration={800} className='link'>Über Uns</Link></li>
-                                            <li><Link to="kontakt" smooth={true} duration={800} className='link'>Kontakt</Link></li>
+                                            <li><Link to="kontakt" smooth={true} duration={800} offset={-70} className='link'>Kontakt</Link></li>
                                         </ul>
                                         ) : (
                                         <ul className="d-block">
