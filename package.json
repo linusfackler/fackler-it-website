@@ -1,7 +1,7 @@
 {
   "name": "fackler-it-website",
   "version": "0.1.0",
-  "homepage": "https://linusfackler.github.io/fackler-it-website",
+  "homepage": "https://linusfackler.github.io/Fackler-IT-website/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
