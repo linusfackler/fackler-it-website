@@ -1,6 +1,4 @@
 <?php
-
-
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
@@ -15,7 +13,7 @@
         if ( empty($name) OR empty($phone) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             // Set a 400 (bad request) response code and exit.
             http_response_code(400);
-            echo "Oops! There was a problem Please complete the form and try again.";
+            echo "Bitte versuch's erneut.";
             exit;
         }
 
@@ -42,12 +40,12 @@
         } else {
             // Setting a 500 (internal server error) response code.
             http_response_code(500);
-            echo "Oops! Something wrong and we couldn't send your message.";
+            echo "Bitte versuch es erneut.";
         }
 
     } else {
         // Not a POST request, set a 403 (forbidden) response code.
         http_response_code(403);
-        echo "There was a problem with your input, please try again.";
+        echo "Es gab ein Problem mit deinen Eingaben. Bitte versuch es erneut.";
     }
 ?>
