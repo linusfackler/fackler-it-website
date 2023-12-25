@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fackler-it-website/static/css/main.380d9a69.css",
-    "main.js": "/fackler-it-website/static/js/main.fbf456bf.js",
+    "main.js": "/fackler-it-website/static/js/main.77107dda.js",
     "static/js/787.659efe39.chunk.js": "/fackler-it-website/static/js/787.659efe39.chunk.js",
     "static/media/infrastructure.png": "/fackler-it-website/static/media/infrastructure.aaa0358e4ba7158b282a.png",
     "static/media/ki.png": "/fackler-it-website/static/media/ki.3b8df1d436653b766829.png",
@@ -27,11 +27,11 @@
     "static/media/to.svg": "/fackler-it-website/static/media/to.a3dd3dfa61cd94a58a2659f56e9e8542.svg",
     "index.html": "/fackler-it-website/index.html",
     "main.380d9a69.css.map": "/fackler-it-website/static/css/main.380d9a69.css.map",
-    "main.fbf456bf.js.map": "/fackler-it-website/static/js/main.fbf456bf.js.map",
+    "main.77107dda.js.map": "/fackler-it-website/static/js/main.77107dda.js.map",
     "787.659efe39.chunk.js.map": "/fackler-it-website/static/js/787.659efe39.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.380d9a69.css",
-    "static/js/main.fbf456bf.js"
+    "static/js/main.77107dda.js"
   ]
 }
