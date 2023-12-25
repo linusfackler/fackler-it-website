@@ -50,7 +50,6 @@ export const Contact = () => {
                                         </div>
                                     </div>
                                 </form>
-                                <p className="form-message mt-20"></p>
                             </div>
                         </div>
                     </div>

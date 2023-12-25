@@ -8,7 +8,7 @@ export const ImpressumPage = () => {
   return (
     <div>
         <Helmet>
-          <script src="js/main.js"></script>
+          <script type="text/babel" src="js/main.js"></script>
         </Helmet>
         <Header/>
         <Impressum/>
