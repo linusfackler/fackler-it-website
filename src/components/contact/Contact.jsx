@@ -1,7 +1,19 @@
 import React from 'react'
 import IMG from '../../assets/contact/kontakt.png'
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 export const Contact = () => {
+    const form = useRef(); 
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_jz37m57', 'template_g2bhzm7', form.current, 'ptoa8d7FLk_mGlCrD')
+
+        e.target.reset()
+    };
+
   return (
     <div>
         <div id="kontakt"></div>
@@ -15,7 +27,7 @@ export const Contact = () => {
                                     <h3 className="f-700 mb-40">Nur eine Nachricht entfernt.</h3>
                                     <p className="mb-20">Wir freuen uns!</p>
                                 </div>
-                                <form action="php/mail.php" method="POST" id="contact-form">
+                                <form ref={form} onSubmit={sendEmail} id="contact-form">
                                     <div className="contact-info text-md-center text-lg-left pt-20">
                                         <div className="row">
                                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mb-15" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
@@ -33,7 +45,7 @@ export const Contact = () => {
                                                 <textarea className="massage w-100 primary-border pl-20 pt-20" name="inputMessage" id="inputMessage" placeholder="Ihre Anfrage *" required></textarea>
                                             </div>
                                         </div>
-                                        <div className="my-btn mt-40">
+                                        <div className="my-btn mt-15">
                                             <button className="btn theme-bg text-uppercase f-18 f-700" type="submit" name="submit" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2500">Los geht's</button>
                                         </div>
                                     </div>

@@ -57,10 +57,10 @@
 
     // 2. mobile-menu(mean-menu)
     //---------------------------------------------------------------------------
-    $("#mobile-menu").meanmenu({
-        meanMenuContainer: ".mobile-menu",
-        meanScreenWidth: "991",
-    });
+    // $("#mobile-menu").meanmenu({
+    //     meanMenuContainer: ".mobile-menu",
+    //     meanScreenWidth: "991",
+    // });
 
 
 
