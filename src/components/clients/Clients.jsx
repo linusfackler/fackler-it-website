@@ -2,7 +2,7 @@ import React from 'react'
 
 import C1 from '../../assets/clients/infosys.png'
 import C2 from '../../assets/clients/wipro.png'
-import C3 from '../../assets/clients/daimler.png'
+import C3 from '../../assets/clients/Mercedes-Benz-Logo.png'
 import C4 from '../../assets/clients/to.svg'
 import C5 from '../../assets/clients/streetside.png'
 import C6 from '../../assets/clients/cellent.png'
