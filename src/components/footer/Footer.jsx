@@ -20,7 +20,7 @@ export const Footer = () => {
                                         </li>
                                         <li>
                                             <span className="f-icon mr-20 mt-1"><i className="far fa-envelope"></i></span>
-                                            office@fackler-it.com
+                                            <a href='mailto:office@fackler-it.com'>office@fackler-it.com</a>
                                         </li>
                                     </ul>
                                 </div>

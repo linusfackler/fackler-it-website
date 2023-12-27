@@ -86,7 +86,7 @@
   -o-transition: 0.3s;
 }
 .close-icon span:hover {
-  background: ##354552;
+  background: #354552;
   color: #fff;
   box-shadow: 0px 6px 30px 0px rgba(7, 7, 7, 0.09);
 }
