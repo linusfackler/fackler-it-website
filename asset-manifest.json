@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.03faa6cd.css",
-    "main.js": "/static/js/main.08157a08.js",
+    "main.js": "/static/js/main.f3e87207.js",
     "static/js/787.659efe39.chunk.js": "/static/js/787.659efe39.chunk.js",
     "static/media/infrastructure.png": "/static/media/infrastructure.aaa0358e4ba7158b282a.png",
     "static/media/ki.png": "/static/media/ki.3b8df1d436653b766829.png",
@@ -13,9 +13,9 @@
     "static/media/software.png": "/static/media/software.3f6db5558d935caf675f.png",
     "static/media/architektur.png": "/static/media/architektur.a09b5d7a8348afa2b190.png",
     "static/media/streetside.png": "/static/media/streetside.798d8c754776e8badda9.png",
-    "static/media/daimler.png": "/static/media/daimler.b9f37b4c0100349778a4.png",
     "static/media/raimund.jpeg": "/static/media/raimund.f2ab6595278c6bd36834.jpeg",
     "static/media/linus.jpeg": "/static/media/linus.1ecad5159b2513240592.jpeg",
+    "static/media/Mercedes-Benz-Logo.png": "/static/media/Mercedes-Benz-Logo.9f9f84267fa48839b653.png",
     "static/media/cellent.png": "/static/media/cellent.d8e990de3cfecc1cbf10.png",
     "static/media/wipro.png": "/static/media/wipro.1394936704e8ba1020b9.png",
     "static/media/infosys.png": "/static/media/infosys.e1b94725c3160a8c1c58.png",
@@ -27,11 +27,11 @@
     "static/media/to.svg": "/static/media/to.a3dd3dfa61cd94a58a2659f56e9e8542.svg",
     "index.html": "/index.html",
     "main.03faa6cd.css.map": "/static/css/main.03faa6cd.css.map",
-    "main.08157a08.js.map": "/static/js/main.08157a08.js.map",
+    "main.f3e87207.js.map": "/static/js/main.f3e87207.js.map",
     "787.659efe39.chunk.js.map": "/static/js/787.659efe39.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.03faa6cd.css",
-    "static/js/main.08157a08.js"
+    "static/js/main.f3e87207.js"
   ]
 }
