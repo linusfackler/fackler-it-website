@@ -463,13 +463,9 @@
      }
      .footer-area.home2 {padding-top: 160px;}
      .home7 .footer-widget.pr-100 {  padding-right: 0;}
-     .testimonial-active-home6 {
-          margin-top: 30px;
-     }
      .pricing-plan-section .tab-content{padding-left: 0;}
      .pricing-plan-section {padding-top: 120px; padding-bottom: 130px;}
      .tool-item5 {right: 24px;}
-     .review-area-home5 .testimonial-active-home5 .slick-dots {left: 65px;}
      .our-team-info {
           bottom: -80px;
           padding-top: 70px;
@@ -819,8 +815,6 @@
           font-size: 17px;
           padding: 4px 10px;
      }
-     .home5-screenshot-area .slick-slide img{opacity: 1;}
-     .home5-screenshot-wrapper{padding-bottom: 10px;}
      .pricing-plan-section ul.price-nav li a {
           padding: 15px 25px;
           font-size: 16px;
@@ -861,18 +855,6 @@
      .blog-details-slider-area .page-title {padding-bottom: 30px;}
      .blog-details-area.blog-page {margin-top: 40px;}
      .author-post-details .author-img { margin-bottom: 20px;}
-     .blog-gallery-page .slick-arrow .l-a, .blog-gallery-page .slick-arrow .r-a {
-          font-size: 18px;
-          width: 30px;
-          height: 30px;
-          line-height: 30px;
-          left: 15px;
-     }
-     .blog-gallery-page .slick-arrow .r-a {left: auto; right: 15px;}
-     .service-area.home4.service-page {
-          padding-top: 32px;
-          margin-bottom: 50px;
-     }
      .work-bg .title p{margin-bottom: 0;}
      .feature-ser-heading .feature-ser-icon {
           margin-right: 10px;
