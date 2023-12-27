@@ -87,12 +87,11 @@ export const Header = () => {
                     <a><span className="icon-clear theme-color" onClick={closeMobileMenu}><i className="fa fa-times"></i></span></a>
                 </div>
             </div>
-            {/* <div className="mobile-menu mt-10 w-100"></div> */}
             <div className="mobile-menu-style mt-10 w-100">
                 {isHomePage ? (
                     <ul className="d-block">
                         <li className="full-mega-menu-position"><Link to="home" smooth={true} duration={800} className="link active" onClick={closeMobileMenu}>Home</Link></li>
-                        <li><Link to="service" smooth={true} duration={800} offset={320} className='link' onClick={closeMobileMenu}>Service</Link></li>
+                        <li><Link to="service" smooth={true} duration={800} offset={500} className='link' onClick={closeMobileMenu}>Service</Link></li>
                         <li><Link to="unser-team" smooth={true} duration={800} className='link' onClick={closeMobileMenu}>Über Uns</Link></li>
                         <li><Link to="kontakt" smooth={true} duration={800} offset={-70} className='link' onClick={closeMobileMenu}>Kontakt</Link></li>
                     </ul>
