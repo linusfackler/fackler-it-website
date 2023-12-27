@@ -1,6 +1,5 @@
 import './App.css';
 import React, { useEffect } from 'react';
-import { Helmet } from "react-helmet"
 import { Header } from './components/header/Header';
 import { Slider } from './components/slider/Slider';
 import { Clients } from './components/clients/Clients';
@@ -26,11 +25,7 @@ function App() {
     
     return (
         <>
-            <Helmet>
-                <script src="js/main.js"></script>
-            </Helmet>
             <Preloader />
-        
             <Header />
 
             <main>

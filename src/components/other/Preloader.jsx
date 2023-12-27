@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 
 export const Preloader = () => {
-  return (
-    <div>
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            const preloader = document.getElementById('preloader');
+            if (preloader) {
+                preloader.style.display = 'none';
+            }
+        }, 100);
+
+        return () => clearTimeout(timer);
+    }, []);
+
+    return (
         <div id="preloader">
             <div id="loading">
                 <div id="loading-center">
@@ -14,6 +24,5 @@ export const Preloader = () => {
                 </div>
             </div>
         </div>
-    </div>
-  )
-}
+    );
+};
