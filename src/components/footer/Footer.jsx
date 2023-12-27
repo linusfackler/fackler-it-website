@@ -33,10 +33,10 @@ export const Footer = () => {
                                             <a href="/" className="position-relative d-inline-block mb-2">Home</a>
                                         </li>
                                         <li>
-                                            <a href="impressum" className="position-relative d-inline-block mb-2">Impressum</a>
+                                            <a href="#impressum" className="position-relative d-inline-block mb-2">Impressum</a>
                                         </li>
                                         <li>
-                                            <a href="datenschutz" className="position-relative d-inline-block mb-2">Datenschutz</a>
+                                            <a href="#datenschutz" className="position-relative d-inline-block mb-2">Datenschutz</a>
                                         </li>
                                     </ul>
                                 </div>
