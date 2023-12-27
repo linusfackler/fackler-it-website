@@ -8,7 +8,7 @@ export const DatenschutzPage = () => {
   return (
     <div>
         <Helmet>
-          <script type="text/babel" src="js/main.js"></script>
+          <script src="js/main.js"></script>
         </Helmet>
         <Header/>
         <Datenschutz/>

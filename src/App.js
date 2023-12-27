@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from "react-helmet"
 import { Header } from './components/header/Header';
 import { Slider } from './components/slider/Slider';
@@ -16,12 +16,18 @@ import { Contact } from './components/contact/Contact'
 import { Footer } from './components/footer/Footer'
 import { Preloader } from './components/other/Preloader';
 import { Scrolltop } from './components/other/Scrolltop'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 function App() {
+    useEffect(() => {
+        Aos.init();
+    }, [])
+    
     return (
         <>
             <Helmet>
-                <script type="text/babel" src="js/main.js"></script>
+                <script src="js/main.js"></script>
             </Helmet>
             <Preloader />
         

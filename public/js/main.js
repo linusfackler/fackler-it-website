@@ -4,7 +4,6 @@
     // JS Index
     //----------------------------------------
     // 1. sticky menu
-    // 2. mobile-menu(mean-menu)
     // 3. preloader
     // 4. mobile-menu-sidebar
     // 5. background image
@@ -21,8 +20,6 @@
     // 17. header-search
     // 18. home5 screenshot active
     // 19. Isotope js
-    // 20. tilt js
-    // 21. aos js
     // 22. parallax
     // 23. parallax
     // 24. Animate the scroll to top
@@ -52,55 +49,10 @@
         }
     });
 
-
-
-
-    // 2. mobile-menu(mean-menu)
-    //---------------------------------------------------------------------------
-    // $("#mobile-menu").meanmenu({
-    //     meanMenuContainer: ".mobile-menu",
-    //     meanScreenWidth: "991",
-    // });
-
-
-
     // 3. preloader
     //---------------------------------------------------------------------------
     $(window).load(function(){
         $('#preloader').fadeOut('slow',function(){$(this).remove();});
-    });
-
-
-
-    // 4. mobile-menu-sidebar
-    //---------------------------------------------------------------------------
-    $(".mobile-menubar").on("click", function(){
-        $(".side-mobile-menu").addClass('open-menubar');
-        $(".body-overlay").addClass("opened");
-    });
-    $(".close-icon").click(function(){
-        $(".side-mobile-menu").removeClass('open-menubar');
-        $(".body-overlay").removeClass("opened");
-    });
-
-    $(".body-overlay").on("click", function () {
-		$(".side-mobile-menu").removeClass('open-menubar');
-		$(".body-overlay").removeClass("opened");
-	});
-
-    $(".link").on("click", function () {
-        $(".side-mobile-menu").removeClass('open-menubar');
-        $(".body-overlay").removeClass("opened");
-    });
-
-    // $(".link-service").on("click", function () {
-    //     document.getElementById("service");
-    // });
-
-    // 5. background image
-    //---------------------------------------------------------------------------
-    $("[data-background]").each(function (){
-        $(this).css("background-image","url(" + $(this).attr("data-background") + ")");
     });
 
     // 6. testimonial active (home1)
@@ -402,18 +354,6 @@
         $(this).addClass('active');
         event.preventDefault();
     });
-
-    // 20. tilt js
-    // ---------------------------------------------------------------------------
-    $('.tilt').tilt({
-        maxTilt:        15,
-        perspective:    1500,
-        // disableAxis:    'X',
-    });
-
-    // 21. aos js
-    // ---------------------------------------------------------------------------
-    AOS.init();
 
     // 24. Animate the scroll to top
     // --------------------------------------------------------------------------

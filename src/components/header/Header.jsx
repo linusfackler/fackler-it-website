@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-scroll';
 import { useLocation } from 'react-router-dom'
 import LOGO from '../../assets/logo/logo.svg'
@@ -6,6 +6,16 @@ import LOGO from '../../assets/logo/logo.svg'
 export const Header = () => {
     const location = useLocation();
     const isHomePage = location.pathname === '/';
+
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+    const toggleMobileMenu = () => {
+        setIsMobileMenuOpen(!isMobileMenuOpen);
+    };
+
+    const closeMobileMenu = () => {
+        setIsMobileMenuOpen(false);
+    };
 
     return (
         <div>
@@ -47,7 +57,7 @@ export const Header = () => {
                             <div className="col-xl-4  col-lg-4 col-md-6 col-sm-6 col-4 pl-lg-0 pl-xl-3">
                                 <div className="header-right d-flex align-items-center justify-content-lg-between justify-content-end">
                                     <div className="d-block d-lg-none pl-20">
-                                        <a className="mobile-menubar theme-color"><i className="far fa-bars"></i></a>
+                                        <a className="mobile-menubar theme-color" onClick={toggleMobileMenu}><i className="far fa-bars"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -57,19 +67,19 @@ export const Header = () => {
             </div>
         </header>
 
-        <div className="side-mobile-menu white-bg pt-10 pb-30 pl-35 pr-30 pb-100">
+        <div className={`side-mobile-menu white-bg pt-10 pb-30 pl-35 pr-30 pb-100 ${isMobileMenuOpen ? 'open-menubar' : ''}`}>
             <div className="d-fle justify-content-between w-100">
                 <div className="close-icon d-inline-block float-right clear-both mt-15 mb-10">
-                    <a><span className="icon-clear theme-color"><i className="fa fa-times"></i></span></a>
+                    <a><span className="icon-clear theme-color" onClick={closeMobileMenu}><i className="fa fa-times"></i></span></a>
                 </div>
             </div>
             {/* <div className="mobile-menu mt-10 w-100"></div> */}
             <div className="mobile-menu-style mt-10 w-100">
                 <ul className="d-block">
-                    <li className="full-mega-menu-position"><Link to="home" smooth={true} duration={800} className="link active">Home</Link></li>
-                    <li><Link to="service" smooth={true} duration={800} offset={320} className='link'>Service</Link></li>
-                    <li><Link to="unser-team" smooth={true} duration={800} className='link'>Über Uns</Link></li>
-                    <li><Link to="kontakt" smooth={true} duration={800} offset={-70} className='link'>Kontakt</Link></li>
+                    <li className="full-mega-menu-position"><Link to="home" smooth={true} duration={800} className="link active" onClick={closeMobileMenu}>Home</Link></li>
+                    <li><Link to="service" smooth={true} duration={800} offset={320} className='link' onClick={closeMobileMenu}>Service</Link></li>
+                    <li><Link to="unser-team" smooth={true} duration={800} className='link' onClick={closeMobileMenu}>Über Uns</Link></li>
+                    <li><Link to="kontakt" smooth={true} duration={800} offset={-70} className='link' onClick={closeMobileMenu}>Kontakt</Link></li>
                 </ul>
             </div>
             <ul className="social-link pt-50 clear-both">
@@ -78,7 +88,7 @@ export const Header = () => {
                 </li>
             </ul>
         </div>
-        <div className="body-overlay"></div>
+        <div className={`body-overlay ${isMobileMenuOpen ? 'opened' : ''}`} onClick={closeMobileMenu}></div>
         </div>
     )
 }
