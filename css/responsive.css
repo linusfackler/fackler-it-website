@@ -905,6 +905,9 @@
           margin-top: 18px;
      }
 
+     .contact-image {
+          margin-top: 50px;
+     }
 }
 
 
@@ -1120,9 +1123,6 @@
           padding-right: 40px;
      }
      h4.modal-title {  font-size: 25px;}
-
-
-
 }
 
 
