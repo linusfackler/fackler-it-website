@@ -66,7 +66,7 @@ export const Contact = () => {
                     </div>
                     <div className="col-xl-6 col-lg-6 offset-lg-0 col-md-10 offset-md-1 col-sm-12 col-12 pr-10">
                         <div className="faq-img img-right-margin text-center"  data-aos="fade-left" data-aos-duration="2000">
-                            <img className="d-block bounce-animate2 img-style" src={IMG} alt=""/>
+                            <img className="d-block bounce-animate2 img-style contact-image" src={IMG} alt=""/>
                         </div>
                     </div>
                 </div>
