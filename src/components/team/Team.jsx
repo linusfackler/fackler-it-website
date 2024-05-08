@@ -13,9 +13,9 @@ export const Team = () => {
                         <div className="row justify-content-center">
                             <div className="col-xl-6  col-lg-7  col-md-9  col-sm-12 col-12">
                                 <div className="title text-center">
-                                    <span className="theme-color f-700">Triff die Facklers</span>
+                                    <span className="theme-color f-700">Fackler IT</span>
                                     <h4 className="f-700 mb-30">Unser Team</h4>
-                                        <p>Eine bunte Truppe von Tech-Enthusiasten, die Code lieber als Kaffee zum Frühstück haben. Wir kombinieren Kreativität mit Expertise – und das immer mit einem Augenzwinkern.</p>
+                                        <p>Tech-Enthusiasten, die Code lieber als Kaffee zum Frühstück haben. Wir kombinieren Kreativität mit Expertise – und das immer mit einem Augenzwinkern.</p>
                                 </div>
                             </div>
                         </div>
