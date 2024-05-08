@@ -50,6 +50,7 @@ export const Team = () => {
                                     <div className="our-team-info transition5 position-absolute left-0 right-0 white-bg pl-25 pt-90 pb-15 pr-25">
                                         <span className="secondary-color">Softwareentwickler</span>
                                         <h3 className="mt-1 f-700">Linus Fackler</h3>
+                                        
                                     </div>
                                 </div>
                             </a>
